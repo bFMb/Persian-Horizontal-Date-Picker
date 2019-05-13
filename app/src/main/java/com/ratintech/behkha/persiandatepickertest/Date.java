@@ -1,12 +1,12 @@
-package com.ratintech.behkha.persiandatepicker.models;
+package com.ratintech.behkha.persiandatepickertest;
 
-public class Day {
+public class Date {
 
   private int number;
   private String day;
   private boolean isSelected;
 
-  public Day(int number, String day) {
+  public Date(int number, String day) {
     this.number = number;
     this.day = day;
   }
